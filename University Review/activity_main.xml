@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/cu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chandigarh University"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-black"
+        android:padding="5dp"/>
+
+    <ImageView
+        android:id="@+id/image_cu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cu"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="35dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+       android:layout_marginBottom="225dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-black"
+        android:text="Description:" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chandigarh University is one of the best private
+                       university in India. The campus of university of cosmopolitian. Here students from various parts of the country and world study together. It is located in Mohali.
+To get admission into the University you either have to appear for CU-CET or you can get admission
+on the basis of you JEE score."
+        android:textSize="15sp"
+        android:fontFamily="sans-serif"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="5dp"/>
+
+
+</RelativeLayout>
